@@ -70,6 +70,8 @@
 ;; ---------------------
 ;; Put your plugins here
 ;; ---------------------
+(use-package! :loctvl842/monokai-pro.nvim)
+(use-package! :kovisoft/paredit)
 
 ;; Send plugins to packer
 
