@@ -4,14 +4,14 @@
 ;; via require. This is the default:
 
 (set! background :dark)
-(colorscheme oxocarbon)
+(colorscheme monokai-pro)
 
 ;; The set! macro sets vim.opt options. By default it sets the option to true 
 ;; Appending `no` in front sets it to false. This determines the style of line 
 ;; numbers in effect. If set to nonumber, line numbers are disabled. For 
 ;; relative line numbers, set 'relativenumber`
 
-(set! nonumber)
+(set! number)
 
 ;; The let option sets global, or `vim.g` options. 
 ;; Heres an example with localleader, setting it to <space>m
