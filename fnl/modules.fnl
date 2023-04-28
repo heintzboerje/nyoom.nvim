@@ -44,7 +44,7 @@
 
         :tools
         debugger             ; stepping through code, to help you add bugs
-        docker               ; row row row your boat TODO +netman?
+        ;;docker             ; row row row your boat TODO +netman?
         ;;editorconfig       ; let someone else argue about tabs vs spaces
         ;;magma              ; tame Jupyter notebooks
         mason                ; setting your tools in stone
