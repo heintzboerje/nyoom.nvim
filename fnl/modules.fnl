@@ -27,7 +27,7 @@
         :editor
         fold                 ; (nigh) universal code folding
         (format +onsave)     ; automated prettiness
-        ;;multiple-cursors   ; learn macros you dingus
+        multiple-cursors     ; learn macros you dingus
         parinfer             ; turn lisp into python, sort of
         (hotpot +reflect)    ; lets get cooking. NOTE: essential module (for now), don't disable
         scratch              ; emacs-like scratch buffer functionality
@@ -60,29 +60,29 @@
 
         :lang
         cc                   ; C > C++ == 1
-        clojure              ; java with a lisp
-        common-lisp          ; if you've seen one lisp, you've seen them all
-        csharp               ; java but with linq
-        java                 ; the poster child for carpal tunnel syndrome
-        julia                ; a better, faster MATLAB
+        ;clojure              ; java with a lisp
+        ;common-lisp          ; if you've seen one lisp, you've seen them all
+        ;csharp               ; java but with linq
+        ;java                 ; the poster child for carpal tunnel syndrome
+        ;julia                ; a better, faster MATLAB
         ;;kotlin             ; FIXME: a better, slicker Java(Script)
-        json                 ; { "dʒeɪsən":  "Javascript Object Notation" }
-        latex                ; writing papers in Neovim has never been so fun
+        ;json                 ; { "dʒeɪsən":  "Javascript Object Notation" }
+        ;latex                ; writing papers in Neovim has never been so fun
         lua                  ; one-based indices? one-based indices
         markdown             ; writing docs for people to ignore
-        nim                  ; python + lisp at the speed of c
+        ;nim                  ; python + lisp at the speed of c
         (neorg               ; organize your plain life in plain text, the neovim way
           +pretty
           +present
           +export
           +nabla)
         ;;(org +pretty)      ; WIP: organize your plain life in plain text, the emacs way
-        nix                  ; I hereby declare "nix geht mehr!"
+        ;nix                  ; I hereby declare "nix geht mehr!"
         python               ; beautiful is better than ugly
-        rust                 ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+        ;rust                 ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
         (sh +fish)           ; she sells {ba,z,fi}sh shells on the C xor
         xml                  ; extend my language
-        zig                  ; C, but simpler
+        ;zig                  ; C, but simpler
 
         :app
         ;;calendar           ; Watch your missed deadlines in real time
